@@ -6,16 +6,14 @@ def person(name , age):
 
 person(age=28,name='navin')
 
-
-
 def person(name , age=18):
     print(name)
     print(age)
 
 person('navin',28)
 
+# Variable Length Arguments:-
 def sum(*b):
-
    c = 0
    for i in b:
        c = c + i
@@ -25,7 +23,6 @@ def sum(*b):
 sum(5,6,34,78)
 
 ## KWARGS
-
 def person(name, **data):
     print(name)
     print(data)

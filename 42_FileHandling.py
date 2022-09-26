@@ -8,14 +8,12 @@ f1.write("People")
 f1.write('Mobile')
 
 
-
 f = open('MyData','r')
 
 f1 = open('abc','w')
 
 for data in f:
     f1.write(data)
-
 
 
 f = open('mumbai.jpg','rb')

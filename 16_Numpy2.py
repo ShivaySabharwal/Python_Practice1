@@ -53,8 +53,14 @@ print(id(arr2))
 
 
 arr1 = array([2,6,8,1,3])
-# arr2 = arr1.view()
+#arr2 = arr1.view()
 arr2 = arr1.copy()
+
+'''
+The main difference between a copy and a view of an array is that the copy is a new array, and the view is just a view of 
+the original array. The copy owns the data and any changes made to the copy will not affect original array, and any 
+changes made to the original array will not affect the copy.
+'''
 
 arr1[1] = 7
 

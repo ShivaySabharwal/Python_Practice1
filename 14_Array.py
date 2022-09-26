@@ -53,7 +53,6 @@ for e in arr:
     if e==val:
         print(k)
         break
-
     k+=1
 
 print(arr.index(val))

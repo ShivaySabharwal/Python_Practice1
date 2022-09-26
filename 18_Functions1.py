@@ -4,11 +4,6 @@ def greet():
 
 greet()
 
-
-def greet():
-    print("Hello")
-    print("Good Morning")
-
 def add(x,y):
     c = x+y
     return c
@@ -16,8 +11,6 @@ def add(x,y):
 greet()
 result = add(5,4)
 print(result)
-
-
 
 def add_sub(x,y):
     c = x+y
