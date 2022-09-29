@@ -1,6 +1,6 @@
 class Student:
 
-    def __init__(self,name,rollno):
+    def __init__(self, name, rollno):
         self.name = name
         self.rollno = rollno
         self.lap = self.Laptop()

@@ -1,14 +1,3 @@
-# x = ['navin',65,2.5]
-#
-# for i in x:
-#     print(i)
-
-
-# x = 'NAVIN'
-#
-# for i in x:
-#     print(i)
-
 # for i in [2,6,'Paul']:
 #     print(i)
 

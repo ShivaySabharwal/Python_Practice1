@@ -16,7 +16,7 @@ class Laptop:
     def code(self,ide):
         ide.execute()
 
-ide = MyEditor()
+ideg = MyEditor()
 
 lap1 = Laptop()
-lap1.code(ide)
+lap1.code(ideg)
